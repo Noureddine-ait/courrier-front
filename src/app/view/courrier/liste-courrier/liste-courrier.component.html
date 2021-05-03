@@ -1,0 +1,54 @@
+<div class="card">
+  <div class="card-header bg-info text-dark"></div>
+  <div class="card-body">
+    <div class="input-group ">
+      <input type="search" class="form-control rounded " placeholder="Search" aria-label="Search"
+             aria-describedby="search-addon" />
+      <button type="button" class="btn btn-outline-primary"><i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </div>
+    <table class="table table-hover table-striped ">
+      <thead>
+      <th>TypeCourrier</th>
+      <th>Coordinateur</th>
+      <th>SousDossier</th>
+      <th>Reference</th>
+      <th>Annee</th>
+      <th>Indice</th>
+      <th>NumOrder</th>
+      <th>DateCourrier</th>
+      <th>Objet</th>
+      <th>SousThème </th>
+      <th>CategorieCourrier</th>
+      <th>Expéditeur </th>
+      <th>TypeExpediteur</th>
+      <th>Actions</th>
+      </thead>
+      <tbody>
+      <tr *ngFor="let ci of courriers">
+
+        <td>{{ci.typeCourrier}}</td>
+        <td>{{ci.coordinateur}}</td>
+        <td>{{ci.sousDossier}}</td>
+        <td>{{ci.ref}}</td>
+        <td>{{ci.annee}}</td>
+        <td>{{ci.indice}}</td>
+        <td>{{ci.numOrder}}</td>
+        <td>{{ci.dateCourrier}}</td>
+        <td>{{ci.objet}}</td>
+        <td>{{ci.sousTheme}}</td>
+        <td>{{ci.categorieCourrier}}</td>
+        <td>{{ci.expediteur}}</td>
+        <td>{{ci.typeExpediteur}}</td>
+
+      </tr>
+      </tbody>
+
+    </table>
+
+  </div>
+</div>
+
+
+
+
