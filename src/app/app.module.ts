@@ -9,8 +9,8 @@ import {ConsigneListComponent} from './view/consigne/consigne-list/consigne-list
 import {ConsigneComponent} from './view/consigne/consigne.component';
 import {ConsigneCourrierComponent} from './view/consigne/consigne-courrier/consigne-courrier.component';
 import {TraitementComponent} from './view/traitement/traitement.component';
-import {ListTraitementComponent} from './view/traitement/list-traitement/list-traitement.component';
 import {TraitementCourrierComponent} from './view/traitement/traitement-courrier/traitement-courrier.component';
+import {ListTraitementComponent} from './view/traitement/list-traitement/list-traitement.component';
 
 
 @NgModule({
