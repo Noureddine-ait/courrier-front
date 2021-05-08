@@ -1,0 +1,33 @@
+
+<div class="card">
+  <div class="card-header bg-info text-dark"></div>
+  <div class="card-body">
+
+    <table class="table table-hover table-striped ">
+      <thead>
+      <th>Courrier</th>
+      <th>Libelle</th>
+      <th>DateTraitement</th>
+      <th>Responsable</th>
+      <th>Entiteadmin</th>
+      <th>Actions</th>
+      </thead>
+      <tbody>
+      <tr *ngFor="let t of traitementCourrierServices">
+
+        <td>{{t.courrier}}</td>
+        <td>{{t.libelle}}</td>
+        <td>{{t.dateTraitement}}</td>
+        <td>{{t.responsable}}</td>
+        <td>{{t.entiteAdmin}}</td>
+      </tr>
+      </tbody>
+
+    </table>
+
+  </div>
+</div>
+
+
+
+
