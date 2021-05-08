@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {ConsigneCourrier} from '../../controller/model/consigne-courrier.model';
-import {TraitementCourrier} from '../../controller/model/traitement-courrier.model';
-import {ConsigneCourrierService} from '../../controller/service/consigne-courrier.service';
-import {TraitementCourrierService} from '../../controller/service/traitement-courrier.service';
+import {ConsigneCourrier} from '../../../controller/model/consigne-courrier.model';
+import {TraitementCourrier} from '../../../controller/model/traitement-courrier.model';
+import {ConsigneCourrierService} from '../../../controller/service/consigne-courrier.service';
+import {TraitementCourrierService} from '../../../controller/service/traitement-courrier.service';
 
 @Component({
   selector: 'app-traitement-courrier',

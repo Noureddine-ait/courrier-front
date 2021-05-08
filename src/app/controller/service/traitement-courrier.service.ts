@@ -6,9 +6,15 @@ import {TraitementCourrier} from '../model/traitement-courrier.model';
   providedIn: 'root'
 })
 export class TraitementCourrierService {
+
   private _traitementCourrier: TraitementCourrier;
+  private _traitementCourriers: Array<TraitementCourrier>;
 
   constructor() {
+  }
+
+  get traitementCourriers(): Array<TraitementCourrier> {
+    return this._traitementCourriers;
   }
 
   get traitementCourrier(): TraitementCourrier {

@@ -1,80 +1,86 @@
-
-<div class="card">
+<div class="card" xmlns="http://www.w3.org/1999/html">
   <div class="card-header bg-info text-dark"></div>
 
   <div class="card-body  ">
+    <div class="form-row">
 
-    <div class="col-md-5 mx-auto">
+    <div class=" col-md-4  ">
       <label>TypeCourrier </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.typeCourrier">
+      <select type="dropdown"  class="form-control"[(ngModel)]="courrier.typeCourrier"></select>
     </div>
 
 
-    <div class="col-md-5 mx-auto ">
+    <div class=" col-md-4 ">
       <label>Coordinateur </label>
       <input type="text" class="form-control" [(ngModel)]="courrier.coordinateur">
     </div>
 
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>SousDossier </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.sousDossier">
+      <select type="text" class="form-control" [(ngModel)]="courrier.sousDossier"></select>
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>Ref </label>
       <input type="text" class="form-control" [(ngModel)]="courrier.ref">
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>Annee </label>
       <input type="text" class="form-control" [(ngModel)]="courrier.annee">
     </div>
- <div class="col-md-5 mx-auto">
+ <div class="col-md-4 ">
       <label>Indice </label>
       <input type="text" class="form-control" [(ngModel)]="courrier.indice">
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>NumOrder </label>
       <input type="text" class="form-control" [(ngModel)]="courrier.numOrder">
     </div>
 
 
-    <div class="col-md-5 mx-auto">
-      <label>DateCourrier </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.dateCourrier">
+      <div class="col-md-4 ">
+        <label>DateCourrier </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.dateCourrier">
+      </div>
+
+    <div class="col-md-4 ">
+      <label>DateBureauOrdre </label>
+      <input type="text" class="form-control" [(ngModel)]="courrier.dateBureauOrdre">
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>Objet </label>
       <input type="text" class="form-control" [(ngModel)]="courrier.objet">
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>SousThème </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.sousTheme">
+      <select type="text" class="form-control" [(ngModel)]="courrier.sousTheme"></select>
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>CategorieCourrier </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.categorieCourrier">
+      <select type="text" class="form-control" [(ngModel)]="courrier.categorieCourrier"></select>
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>Expéditeur </label>
       <input type="text" class="form-control" [(ngModel)]="courrier.expediteur">
     </div>
 
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-4 ">
       <label>TypeExpediteur </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.typeExpediteur">
+      <select type="text" class="form-control" [(ngModel)]="courrier.typeExpediteur"></select>
     </div>
   </div>
 
 
-  <div class="card-footer mx-auto">
+  <div class="card-body  col-md-2 mx-auto ">
     <button class="btn btn-outline-dark btn-block"> <i class="fa fa-plus-square-o" aria-hidden="true"></i> Ajouter </button>
   </div>
+</div>
 </div>

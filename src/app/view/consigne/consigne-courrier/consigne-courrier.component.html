@@ -4,42 +4,39 @@
 
   <div class="card-body">
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-auto">
       <label>Courrier </label>
       <input type="text" class="form-control" [(ngModel)]="consigneCourrier.courrier">
     </div>
 
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-auto ">
       <label>Libelle </label>
       <input type="text" class="form-control" [(ngModel)]="consigneCourrier.libelle">
     </div>
 
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-auto ">
       <label>DateConsigne </label>
       <input type="text" class="form-control" [(ngModel)]="consigneCourrier.dateConsigne">
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-auto ">
       <label>Responsable </label>
       <input type="text" class="form-control" [(ngModel)]="consigneCourrier.responsable">
     </div>
 
-    <div class="col-md-5 mx-auto">
+    <div class="col-md-auto ">
       <label>Entiteadmin </label>
-      <input type="text" class="form-control" [(ngModel)]="consigneCourrier.entiteadmin">
+      <select type="text" class="form-control" [(ngModel)]="consigneCourrier.entiteadmin"></select>
     </div>
-
-
-
 
 
 
   </div>
 
 
-  <div class="card-footer mx-auto">
+  <div class="card-footer ">
     <button class="btn btn-outline-dark btn-block"><i class="fa fa-check" aria-hidden="true"></i> Valider </button>
   </div>
 </div>
