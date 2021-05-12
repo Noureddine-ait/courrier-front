@@ -1,44 +1,73 @@
+
 <div class="card" xmlns="http://www.w3.org/1999/html">
-  <div class="card-header bg-info text-dark"></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar navbar-light " >
+    <div class="container-fluid">
+
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+      <li class="nav-item">
+        <a class="nav-link " routerLink="consigne" routerLinkActive="active"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+          Consigne </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="traitement" routerLinkActive="active"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+          <span class="sr-only"></span>Traitement  </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="service-traitant" routerLinkActive="active"><i class="fa fa-server" aria-hidden="true"></i> Service Traitant  </a>
+      </li>
+
+    </ul>
+    <span class="navbar-text">
+
+      </span>
+  </div>
+</div>
+</nav>
+
 
   <div class="card-body  ">
     <div class="form-row">
 
-    <div class=" col-md-4  ">
-      <label>TypeCourrier </label>
-      <select type="dropdown"  class="form-control"[(ngModel)]="courrier.typeCourrier"></select>
-    </div>
+      <div class=" col-md-4  ">
+        <label>TypeCourrier </label>
+        <select type="dropdown"  class="form-control"[(ngModel)]="courrier.typeCourrier"></select>
+      </div>
 
 
-    <div class=" col-md-4 ">
-      <label>Coordinateur </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.coordinateur">
-    </div>
+      <div class=" col-md-4 ">
+        <label>Coordinateur </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.coordinateur">
+      </div>
 
 
-    <div class="col-md-4 ">
-      <label>SousDossier </label>
-      <select type="text" class="form-control" [(ngModel)]="courrier.sousDossier"></select>
-    </div>
+      <div class="col-md-4 ">
+        <label>SousDossier </label>
+        <select type="text" class="form-control" [(ngModel)]="courrier.sousDossier"></select>
+      </div>
 
-    <div class="col-md-4 ">
-      <label>Ref </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.ref">
-    </div>
+      <div class="col-md-4 ">
+        <label>Ref </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.ref">
+      </div>
 
-    <div class="col-md-4 ">
-      <label>Annee </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.annee">
-    </div>
- <div class="col-md-4 ">
-      <label>Indice </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.indice">
-    </div>
+      <div class="col-md-4 ">
+        <label>Annee </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.annee">
+      </div>
+      <div class="col-md-4 ">
+        <label>Indice </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.indice">
+      </div>
 
-    <div class="col-md-4 ">
-      <label>NumOrder </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.numOrder">
-    </div>
+      <div class="col-md-4 ">
+        <label>NumOrder </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.numOrder">
+      </div>
 
 
       <div class="col-md-4 ">
@@ -46,41 +75,41 @@
         <input type="text" class="form-control" [(ngModel)]="courrier.dateCourrier">
       </div>
 
-    <div class="col-md-4 ">
-      <label>DateBureauOrdre </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.dateBureauOrdre">
+      <div class="col-md-4 ">
+        <label>DateBureauOrdre </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.dateBureauOrdre">
+      </div>
+
+      <div class="col-md-4 ">
+        <label>Objet </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.objet">
+      </div>
+
+      <div class="col-md-4 ">
+        <label>SousThème </label>
+        <select type="text" class="form-control" [(ngModel)]="courrier.sousTheme"></select>
+      </div>
+
+      <div class="col-md-4 ">
+        <label>CategorieCourrier </label>
+        <select type="text" class="form-control" [(ngModel)]="courrier.categorieCourrier"></select>
+      </div>
+
+      <div class="col-md-4 ">
+        <label>Expéditeur </label>
+        <input type="text" class="form-control" [(ngModel)]="courrier.expediteur">
+      </div>
+
+
+      <div class="col-md-4 ">
+        <label>TypeExpediteur </label>
+        <select type="text" class="form-control" [(ngModel)]="courrier.typeExpediteur"></select>
+      </div>
     </div>
 
-    <div class="col-md-4 ">
-      <label>Objet </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.objet">
-    </div>
 
-    <div class="col-md-4 ">
-      <label>SousThème </label>
-      <select type="text" class="form-control" [(ngModel)]="courrier.sousTheme"></select>
-    </div>
-
-    <div class="col-md-4 ">
-      <label>CategorieCourrier </label>
-      <select type="text" class="form-control" [(ngModel)]="courrier.categorieCourrier"></select>
-    </div>
-
-    <div class="col-md-4 ">
-      <label>Expéditeur </label>
-      <input type="text" class="form-control" [(ngModel)]="courrier.expediteur">
-    </div>
-
-
-    <div class="col-md-4 ">
-      <label>TypeExpediteur </label>
-      <select type="text" class="form-control" [(ngModel)]="courrier.typeExpediteur"></select>
+    <div class="card-body  col-md-2 mx-auto ">
+      <button class="btn btn-outline-dark btn-block"> <i class="fa fa-plus-square-o" aria-hidden="true"></i> Ajouter </button>
     </div>
   </div>
 
-
-  <div class="card-body  col-md-2 mx-auto ">
-    <button class="btn btn-outline-dark btn-block"> <i class="fa fa-plus-square-o" aria-hidden="true"></i> Ajouter </button>
-  </div>
-</div>
-</div>

@@ -3,7 +3,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 import {MenuComponent} from './view/menu/menu.component';
 import {PageNotFoundComponent} from './view/page-not-found/page-not-found.component';
-import {AppRoutingModule, components} from './app-routing.module';
+import {AppRoutingModule} from './app-routing.module';
 import {FormsModule} from '@angular/forms';
 import {ConsigneListComponent} from './view/consigne/consigne-list/consigne-list.component';
 import {ConsigneComponent} from './view/consigne/consigne.component';
@@ -11,12 +11,19 @@ import {ConsigneCourrierComponent} from './view/consigne/consigne-courrier/consi
 import {TraitementComponent} from './view/traitement/traitement.component';
 import {TraitementCourrierComponent} from './view/traitement/traitement-courrier/traitement-courrier.component';
 import {ListTraitementComponent} from './view/traitement/list-traitement/list-traitement.component';
+import {CreerCourrierComponent} from './view/courrier/creer-courrier/creer-courrier.component';
+import {ServiceTraitantComponent} from './view/service-traitant/service-traitant.component';
+import {ListeCourrierComponent} from './view/courrier/liste-courrier/liste-courrier.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    components,
+    CreerCourrierComponent,
+    ConsigneComponent,
+    TraitementComponent,
+    ServiceTraitantComponent,
+    ListeCourrierComponent,
     MenuComponent,
     PageNotFoundComponent,
     ConsigneListComponent,

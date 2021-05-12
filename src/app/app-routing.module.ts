@@ -10,14 +10,13 @@ import {PageNotFoundComponent} from './view/page-not-found/page-not-found.compon
 import {ConsigneComponent} from './view/consigne/consigne.component';
 import {TraitementComponent} from './view/traitement/traitement.component';
 // tslint:disable-next-line:max-line-length
-export const components = [CreerCourrierComponent, ConsigneComponent, TraitementComponent, ServiceTraitantComponent, ListeCourrierComponent];
 const routes: Routes = [
-  {path: '', component: components[0]},
-  {path: 'creer-courrier', component: components[0]},
-  {path: 'consigne', component: components[1]},
-  {path: 'traitement', component: components[2]},
-  {path: 'service-traitant', component: components[3]},
-  {path: 'liste-courrier', component: components[4]},
+  {path: '', component: CreerCourrierComponent},
+  {path: 'creer-courrier', component: CreerCourrierComponent},
+  {path: 'creer-courrier/consigne', component: ConsigneComponent},
+  {path: 'creer-courrier/traitement', component: TraitementComponent},
+  {path: 'creer-courrier/service-traitant', component: ServiceTraitantComponent},
+  {path: 'liste-courrier', component: ListeCourrierComponent},
   {path: '**', component: PageNotFoundComponent}
 ];
 
