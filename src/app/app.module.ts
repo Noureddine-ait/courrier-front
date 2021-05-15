@@ -14,6 +14,7 @@ import {ListTraitementComponent} from './view/traitement/list-traitement/list-tr
 import {CreerCourrierComponent} from './view/courrier/creer-courrier/creer-courrier.component';
 import {ServiceTraitantComponent} from './view/service-traitant/service-traitant.component';
 import {ListeCourrierComponent} from './view/courrier/liste-courrier/liste-courrier.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import {ListeCourrierComponent} from './view/courrier/liste-courrier/liste-courr
     BrowserModule,
     FormsModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [ ],
   bootstrap: [AppComponent]
