@@ -2,8 +2,6 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 import {CreerCourrierComponent} from './view/courrier/creer-courrier/creer-courrier.component';
-import {ConsigneCourrierComponent} from './view/consigne/consigne-courrier/consigne-courrier.component';
-import {TraitementCourrierComponent} from './view/traitement/traitement-courrier/traitement-courrier.component';
 import {ServiceTraitantComponent} from './view/service-traitant/service-traitant.component';
 import {ListeCourrierComponent} from './view/courrier/liste-courrier/liste-courrier.component';
 import {PageNotFoundComponent} from './view/page-not-found/page-not-found.component';

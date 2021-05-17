@@ -1,33 +1,36 @@
-
 <div class="card" xmlns="http://www.w3.org/1999/html">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar navbar-light " >
+  <div class="card-header "></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark " >
     <div class="container-fluid">
+      <a class="navbar-brand fa fa-fw fa-lg fa-home" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+          <li class="nav-item">
+            <a class="nav-link " routerLink="consigne" routerLinkActive="active"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+              Consigne </a>
+          </li>
 
-      <li class="nav-item">
-        <a class="nav-link" routerLink="consigne" routerLinkActive="active"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
-          <span class="sr-only"></span>Consigne  </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="traitement" routerLinkActive="active"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
-          <span class="sr-only"></span>Traitement  </a>
-      </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="traitement" routerLinkActive="active"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+              <span class="sr-only"></span>Traitement  </a>
+          </li>
 
-      <li class="nav-item">
-        <a class="nav-link" routerLink="service-traitant" routerLinkActive="active"><i class="fa fa-server" aria-hidden="true"></i> Service Traitant  </a>
-      </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="service-traitant" routerLinkActive="active"><i class="fa fa-server" aria-hidden="true"></i> Service Traitant  </a>
+          </li>
 
-    </ul>
-    <span class="navbar-text">
+        </ul>
+        <span class="navbar-text">
 
       </span>
-  </div>
-</div>
-</nav>
-
+      </div>
+    </div>
+  </nav>
 
   <div class="card-body  ">
     <div class="form-row">
@@ -108,7 +111,7 @@
 
 
     <div class="card-body  col-md-2 mx-auto ">
-      <button class="btn btn-outline-dark btn-block" (click)="save()"> <i class="fa fa-plus-square-o" aria-hidden="true"></i> Ajouter </button>
+      <button class="btn btn-outline-dark btn-block"> <i class="fa fa-plus-square-o" aria-hidden="true"></i> Ajouter </button>
     </div>
   </div>
-
+</div>
