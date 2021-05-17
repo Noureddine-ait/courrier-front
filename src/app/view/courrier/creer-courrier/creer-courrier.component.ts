@@ -15,4 +15,8 @@ export class CreerCourrierComponent implements OnInit {
   get courrier(): Courrier {
     return this.courrierService.courrier;
   }
+  // tslint:disable-next-line:typedef
+  public save() {
+    this.courrierService.save();
+  }
 }

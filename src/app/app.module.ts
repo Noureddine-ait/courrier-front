@@ -15,11 +15,13 @@ import {CreerCourrierComponent} from './view/courrier/creer-courrier/creer-courr
 import {ServiceTraitantComponent} from './view/service-traitant/service-traitant.component';
 import {ListeCourrierComponent} from './view/courrier/liste-courrier/liste-courrier.component';
 import {HttpClientModule} from '@angular/common/http';
+import {CourrierComponent} from './view/courrier/courrier.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    CourrierComponent,
     CreerCourrierComponent,
     ConsigneComponent,
     TraitementComponent,

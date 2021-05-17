@@ -17,4 +17,9 @@ export class ConsigneCourrierComponent implements OnInit {
   get consigneCourrier(): ConsigneCourrier {
     return this.consigneCourrierService.consigneCourrier;
   }
+
+  // tslint:disable-next-line:typedef
+ public  save() {
+    this.consigneCourrierService.save();
+  }
 }
